@@ -1,3 +1,15 @@
+/*
+File: app.js
+Author: Székely Balázs Csaba
+Copyright: 2023, Székely Balázs Csaba
+Group: SZOFT I/1/E
+Date: 2023-02-08
+Github: https://github.com/BlaiseD91/
+Licenc: GNU GPL
+*/
+
+
+
 //console.log("A kapcsolat működik")
 
 const hosszIn = document.querySelector("#hossz");
