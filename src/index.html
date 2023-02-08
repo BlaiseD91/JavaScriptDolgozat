@@ -9,9 +9,22 @@
     <link rel="stylesheet" href="bootstrap.css">
     </head>
 <body>
-    <h1>Megmunkálási idő számítása</h1>
-    
+    <div class="container">
+        <h1>Megmunkálási idő számítása</h1>
+        <p>Add meg azadatokat!</p>
+            <label for="hossz">Megmunkált hossz (mm)</label>
+            <input id="hossz" type="text"><br>
+            <label for="elotolas">Fordulatonkénti előtolás (mm)</label>
+            <input id="elotolas" type="text"><br>
+            <label for="fordulatszam">Főorsó fordulatszáma (fordulat/parc)</label>
+            <input id="fordulatszam" type="text"><br>
+            <button id="calcButton">Számol</button><br>
+            <label for="eredmeny">Megmunkálási idő</label>
+            <input id="eredmeny" type="text">
 
-    <script src="app.js"></script>
+
+
+        <script src="app.js"></script>
+    </div>
 </body>
 </html>
