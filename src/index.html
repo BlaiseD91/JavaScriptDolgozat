@@ -4,23 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Feladat 0357</title>
-
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    
     </head>
-<body>
-    <div class="container">
-        <h1>Megmunkálási idő számítása</h1>
-        <p>Add meg azadatokat!</p>
-            <label for="hossz">Megmunkált hossz (mm)</label>
-            <input id="hossz" type="text"><br>
-            <label for="elotolas">Fordulatonkénti előtolás (mm)</label>
-            <input id="elotolas" type="text"><br>
-            <label for="fordulatszam">Főorsó fordulatszáma (fordulat/perc)</label>
-            <input id="fordulatszam" type="text"><br>
-            <button id="calcButton">Számol</button><br>
-            <label for="eredmeny">Megmunkálási idő (perc)</label>
-            <input id="eredmeny" type="text">
+<body class="bg-dark">
+    <div class="container mt-5 p-5 border border-warning" id="container">
+        <h1 class="border-bottom pb-1 border-warning">Megmunkálási idő számítása</h1>
+        <p>Add meg az adatokat!</p>
+            <label for="hossz" class="form-label fw-bold">Megmunkált hossz (mm)</label>
+            <input id="hossz" type="text" class="form-control mb-2 bg-dark text-warning border-warning">
+            <label for="elotolas" class="form-label  fw-bold">Fordulatonkénti előtolás (mm)</label>
+            <input id="elotolas" type="text" class="form-control mb-2 bg-dark text-warning border-warning">
+            <label for="fordulatszam" class="form-label fw-bold">Főorsó fordulatszáma (fordulat/perc)</label>
+            <input id="fordulatszam" type="text" class="form-control mb-2 bg-dark text-warning border-warning">
+            <button id="calcButton" class="btn btn-warning btn-lg m-2 ">Számol</button><br>
+            <label for="eredmeny" class="form-label fw-bold">Megmunkálási idő (perc)</label>
+            <input id="eredmeny" type="text" class="form-control bg-dark text-warning border-warning" readonly>
 
 
 
