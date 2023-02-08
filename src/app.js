@@ -17,8 +17,14 @@ calcButton.addEventListener('click', () => {
 
     //console.log(eredmeny);
     eredmenyOut.value = eredmeny;
-
+    mezoTorles();
     
 });
+
+function mezoTorles(){
+    hosszIn.value = '';
+    elotolasIn.value = '';
+    fordulatszamIn.value = '';
+};
 
 
