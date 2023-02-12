@@ -22,9 +22,9 @@ const eredmenyOut = document.querySelector("#eredmeny");
 calcButton.addEventListener('click', () => {
     //console.log("A gomb működik");
 
-    var hossz = parseInt(hosszIn.value);
-    var elotolas = parseInt(elotolasIn.value);
-    var fordulatszam = parseInt(fordulatszamIn.value);
+    var hossz = Number(hosszIn.value);
+    var elotolas = Number(elotolasIn.value);
+    var fordulatszam = Number(fordulatszamIn.value);
     var eredmeny = hossz/(elotolas*fordulatszam);
 
     //console.log(eredmeny);
